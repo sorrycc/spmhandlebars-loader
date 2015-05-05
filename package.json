@@ -1,0 +1,27 @@
+{
+  "name": "spmhandlebars-loader",
+  "version": "0.1.0",
+  "description": "Handlebars loader for arale projects.",
+  "main": "index",
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul": "0",
+    "jshint": "2",
+    "coveralls": "2",
+    "mocha": "1",
+    "should": "3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spmjs/spmhandlebars-loader"
+  },
+  "homepage": "https://github.com/spmjs/spmhandlebars-loader",
+  "author": "chencheng <sorrycc@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "make test"
+  },
+  "peerDependencies": {
+    "handlebars": ">= 1.3.0 < 4"
+  }
+}
